@@ -1,0 +1,54 @@
+# ─────────────────────────────
+# Web Framework
+# ─────────────────────────────
+
+fastapi
+uvicorn[standard]
+
+
+# ─────────────────────────────
+# Configuration & Environment
+# ─────────────────────────────
+
+pydantic
+pydantic-settings
+python-dotenv
+pydantic[email]
+
+
+# ─────────────────────────────
+# Database
+# ─────────────────────────────
+
+sqlalchemy
+psycopg[binary]
+alembic
+
+
+# ─────────────────────────────
+# Authentication & Security
+# ─────────────────────────────
+
+PyJWT
+pwdlib[argon2]
+
+
+# ─────────────────────────────
+# HTTP Client
+# ─────────────────────────────
+
+httpx
+
+
+# ─────────────────────────────
+# PostgreSQL Vector Search
+# ─────────────────────────────
+
+pgvector
+
+
+
+redis
+
+
+google-genaicls
